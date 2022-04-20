@@ -1,0 +1,37 @@
+.cardItem{
+    width :541.96px;
+    height: 449.26px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: rem; */
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+}
+.card-img{
+    width: 499.45px;
+    height: 260.62px;
+}
+.card-img img{
+    border-radius: 16px;
+}
+.card-title{
+    font-size: 20px;
+    color: #252F40;
+    font-weight: 600;
+}
+.card-moreDetails{
+    font-size: 13px;
+    color: #67748E;
+    font-weight: 400;
+}
+.book-btn{
+    align-self: flex-end;
+    margin-right:  1rem;
+}
